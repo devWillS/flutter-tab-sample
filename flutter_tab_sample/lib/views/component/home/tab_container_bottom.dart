@@ -34,21 +34,15 @@ class TabContainerBottom extends StatelessWidget {
       items: [
         BottomNavigationBarItem(
           icon: Icon(Icons.chat_bubble),
-          title: Text(
-            'チャット',
-          ),
+          label: 'チャット',
         ),
         BottomNavigationBarItem(
           icon: Icon(Icons.account_circle),
-          title: Text(
-            'プロフィール',
-          ),
+          label: 'プロフィール',
         ),
         BottomNavigationBarItem(
           icon: Icon(Icons.settings),
-          title: Text(
-            '設定',
-          ),
+          label: '設定',
         ),
       ],
     );
